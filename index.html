@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intro to Javascript</title>
+</head>
+<body>
+    <p id="henry"></p>
+    <p id="mike"></p>
+    <p id="obodo"></p>
+    <p class="pink"></p>
+    <b></b>
+
+    <script>
+        var x = 7;
+        document.getElementById("henry").innerHTML=x;
+
+        let v = "ukamaka";
+        document.getElementById("mike").innerHTML=v;
+
+        const d = 780;
+        document.getElementById("obodo").textContent=d;
+
+        var y = "Ngbeke is a beautiful girl";
+        console.log(y);
+
+        var ume = 87;
+        document.getElementsByClassName("pink")[0].textContent=ume;
+
+        var g = "java script"
+        document.getElementsByTagName("b")[0].textContent=g;
+
+
+        //var response = "Transaction successful";
+        //alert(response);
+
+        //var k = 888;
+        //document.write(k);
+
+        // data type
+
+        var f="67";
+        var t = "I love Coding"
+
+        console.log(f);
+        console.log(typeof(f));
+
+        console.log(t);
+        console.log(typeof(t));
+
+        //number data type
+
+        var h = 7363;
+        console.log(h);
+        console.log(typeof(h));
+
+        var fg = 56 > 87;
+         console.log(fg);
+         console.log(typeof(fg));
+         var j = true;
+         var z = false;
+         var op = 54 == 54;
+
+         console.log(typeof(j));
+         console.log(op);
+         console.log(typeof(op));
+         console.log(typeof(z));
+
+         var tp = null;
+         console.log(tp);
+
+         console.log(typeof(tp))
+
+         var c;
+         console.log(c)
+
+         var r = 10n; //where n represent numeric or integer
+         console.log(r)
+
+         console.log(typeof(r))
+
+
+         //data structure
+         //array data structure is used to group multiple similar data 
+
+         var scores = [45, 67, 34, 89, 56];
+         console.log(scores);
+         var uche = scores[0]; //array uses indexing to fetch its element i.e numbering fro 0
+         console.log(uche);
+
+
+         var okeke =scores[4];
+         console.log(okeke);
+
+         var ifeoma = scores [2];
+         console.log(ifeoma);
+
+         //object uses name to fetch its element
+
+        //  var students = {sn:1,name:"Ugwu Daberechi",age:18,height:"1.7m",class:"SS3"}
+        //  console.log(students);
+
+        //  var sy = students["name"];
+        //  console.log(sy);
+
+        //  var jp = students.name;
+        //  console.log(jp);
+
+        //  var dera = students.class;
+        //  console.log(dera);
+
+        //  var sp = students.age;
+        //  console.log(sp);
+
+         //map data structure 
+
+         const roles = new Map([
+            ["admin", "Ugwu Ugonna"],
+             ["Manager", "Price Agubata"],
+              ["accountant", "Ilo Amuche"]
+            ]);
+
+        var yes = roles.has("admin");
+        console.log(yes);
+
+        var no = roles.get("accountant");
+        console.log(no);
+
+        var obi = roles.get("Manager");
+        console.log(obi);
+
+        console.log(roles);
+
+        //set date structure
+        var rooms = new Set([101,104,433,305,108]);
+        var myrooms = Array.from(rooms);
+        var emptyroom = myrooms[0];
+        console.log(emptyroom);
+
+        var oge = myrooms[4];
+        console.log(oge);
+
+
+     // practicing
+     // Arrays
+     var x = [12,13,14,15,16,"animal",18,19];
+     console.log(x);
+     var p = x[4]
+     console.log(p)
+
+     var vx = x[5];
+     console.log(vx);
+
+     var b = x[7];
+     console.log(b)
+
+     //let study object that uses name
+
+     var grade = {no:1, name:"chidera",result:"Excellent",genotype:"AA", score:99, 8:9};
+      // console.log(grade)
+
+     var q = grade[8];
+     console.log(q);
+
+     var u = grade ["name"];
+     console.log(u)
+
+     var j = grade["result"]
+     console.log(j);
+
+     //map data structure
+
+     const school = new Map([
+        ["principal","Okafor"],
+        ["teachers","obichukwu"],
+        ["Senior Prefect","Thaddeus"]
+    ]);
+
+     var pp = school.has("teachers");
+     console.log(pp);
+
+     var oppo = school.get("teachers");
+     console.log(oppo);
+
+     var pros = school.get("principal");
+     console.log(pros)
+
+
+     // set data type
+
+     var thadd = new Set([23,24,25,36,65,85,90]);
+     var chidera = Array.from(thadd);
+
+     var g = chidera[0];
+     console.log(g)
+
+     var h = chidera[6];
+     console.log(h);
+     
+
+
+
+
+
+    
+    </script>
+
+    <p id="hero"></p>
+    <p id="area"></p>
+
+    <!-- <script src="javascript/myjava.js" lang="javascript"></script> -->
+
+    <script>
+        var s = document.createElement("script");
+        s.src = "javascript/myjava.js";
+        s.lang = "javascript";
+        document.body.appendChild(s);
+    </script>
+</body>
+</html>
