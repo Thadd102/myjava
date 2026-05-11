@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>intro to Javascript</title>
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
     <p id="henry"></p>
     <p id="mike"></p>
@@ -14,22 +18,22 @@
 
     <script>
         var x = 7;
-        document.getElementById("henry").innerHTML=x;
+        document.getElementById("henry").innerHTML = x;
 
         let v = "ukamaka";
-        document.getElementById("mike").innerHTML=v;
+        document.getElementById("mike").innerHTML = v;
 
         const d = 780;
-        document.getElementById("obodo").textContent=d;
+        document.getElementById("obodo").textContent = d;
 
         var y = "Ngbeke is a beautiful girl";
         console.log(y);
 
         var ume = 87;
-        document.getElementsByClassName("pink")[0].textContent=ume;
+        document.getElementsByClassName("pink")[0].textContent = ume;
 
         var g = "java script"
-        document.getElementsByTagName("b")[0].textContent=g;
+        document.getElementsByTagName("b")[0].textContent = g;
 
 
         //var response = "Transaction successful";
@@ -40,63 +44,63 @@
 
         // data type
 
-        var f="67";
+        var f = "67";
         var t = "I love Coding"
 
         console.log(f);
-        console.log(typeof(f));
+        console.log(typeof (f));
 
         console.log(t);
-        console.log(typeof(t));
+        console.log(typeof (t));
 
         //number data type
 
         var h = 7363;
         console.log(h);
-        console.log(typeof(h));
+        console.log(typeof (h));
 
         var fg = 56 > 87;
-         console.log(fg);
-         console.log(typeof(fg));
-         var j = true;
-         var z = false;
-         var op = 54 == 54;
+        console.log(fg);
+        console.log(typeof (fg));
+        var j = true;
+        var z = false;
+        var op = 54 == 54;
 
-         console.log(typeof(j));
-         console.log(op);
-         console.log(typeof(op));
-         console.log(typeof(z));
+        console.log(typeof (j));
+        console.log(op);
+        console.log(typeof (op));
+        console.log(typeof (z));
 
-         var tp = null;
-         console.log(tp);
+        var tp = null;
+        console.log(tp);
 
-         console.log(typeof(tp))
+        console.log(typeof (tp))
 
-         var c;
-         console.log(c)
+        var c;
+        console.log(c)
 
-         var r = 10n; //where n represent numeric or integer
-         console.log(r)
+        var r = 10n; //where n represent numeric or integer
+        console.log(r)
 
-         console.log(typeof(r))
-
-
-         //data structure
-         //array data structure is used to group multiple similar data 
-
-         var scores = [45, 67, 34, 89, 56];
-         console.log(scores);
-         var uche = scores[0]; //array uses indexing to fetch its element i.e numbering fro 0
-         console.log(uche);
+        console.log(typeof (r))
 
 
-         var okeke =scores[4];
-         console.log(okeke);
+        //data structure
+        //array data structure is used to group multiple similar data 
 
-         var ifeoma = scores [2];
-         console.log(ifeoma);
+        var scores = [45, 67, 34, 89, 56];
+        console.log(scores);
+        var uche = scores[0]; //array uses indexing to fetch its element i.e numbering fro 0
+        console.log(uche);
 
-         //object uses name to fetch its element
+
+        var okeke = scores[4];
+        console.log(okeke);
+
+        var ifeoma = scores[2];
+        console.log(ifeoma);
+
+        //object uses name to fetch its element
 
         //  var students = {sn:1,name:"Ugwu Daberechi",age:18,height:"1.7m",class:"SS3"}
         //  console.log(students);
@@ -113,13 +117,13 @@
         //  var sp = students.age;
         //  console.log(sp);
 
-         //map data structure 
+        //map data structure 
 
-         const roles = new Map([
+        const roles = new Map([
             ["admin", "Ugwu Ugonna"],
-             ["Manager", "Price Agubata"],
-              ["accountant", "Ilo Amuche"]
-            ]);
+            ["Manager", "Price Agubata"],
+            ["accountant", "Ilo Amuche"]
+        ]);
 
         var yes = roles.has("admin");
         console.log(yes);
@@ -133,7 +137,7 @@
         console.log(roles);
 
         //set date structure
-        var rooms = new Set([101,104,433,305,108]);
+        var rooms = new Set([101, 104, 433, 305, 108]);
         var myrooms = Array.from(rooms);
         var emptyroom = myrooms[0];
         console.log(emptyroom);
@@ -142,73 +146,149 @@
         console.log(oge);
 
 
-     // practicing
-     // Arrays
-     var x = [12,13,14,15,16,"animal",18,19];
-     console.log(x);
-     var p = x[4]
-     console.log(p)
+        // practicing
+        // Arrays
+        var x = [12, 13, 14, 15, 16, "animal", 18, 19];
+        console.log(x);
+        var p = x[4]
+        console.log(p)
 
-     var vx = x[5];
-     console.log(vx);
+        var vx = x[5];
+        console.log(vx);
 
-     var b = x[7];
-     console.log(b)
+        var b = x[7];
+        console.log(b)
 
-     //let study object that uses name
+        //let study object that uses name
 
-     var grade = {no:1, name:"chidera",result:"Excellent",genotype:"AA", score:99, 8:9};
-      // console.log(grade)
+        var grade = { no: 1, name: "chidera", result: "Excellent", genotype: "AA", score: 99, 8: 9 };
+        // console.log(grade)
 
-     var q = grade[8];
-     console.log(q);
+        var q = grade[8];
+        console.log(q);
 
-     var u = grade ["name"];
-     console.log(u)
+        var u = grade["name"];
+        console.log(u)
 
-     var j = grade["result"]
-     console.log(j);
+        var j = grade["result"]
+        console.log(j);
 
-     //map data structure
+        //map data structure
 
-     const school = new Map([
-        ["principal","Okafor"],
-        ["teachers","obichukwu"],
-        ["Senior Prefect","Thaddeus"]
-    ]);
+        const school = new Map([
+            ["principal", "Okafor"],
+            ["teachers", "obichukwu"],
+            ["Senior Prefect", "Thaddeus"]
+        ]);
 
-     var pp = school.has("teachers");
-     console.log(pp);
+        var pp = school.has("teachers");
+        console.log(pp);
 
-     var oppo = school.get("teachers");
-     console.log(oppo);
+        var oppo = school.get("teachers");
+        console.log(oppo);
 
-     var pros = school.get("principal");
-     console.log(pros)
+        var pros = school.get("principal");
+        console.log(pros)
 
 
-     // set data type
+        // set data type
 
-     var thadd = new Set([23,24,25,36,65,85,90]);
-     var chidera = Array.from(thadd);
+        var thadd = new Set([23, 24, 25, 36, 65, 85, 90]);
+        var chidera = Array.from(thadd);
 
-     var g = chidera[0];
-     console.log(g)
+        var g = chidera[0];
+        console.log(g)
 
-     var h = chidera[6];
-     console.log(h);
-     
-
+        var h = chidera[6];
+        console.log(h);
 
 
 
 
-    
+
+
+
     </script>
 
     <p id="hero"></p>
     <p id="area"></p>
 
+
+
+
+
+
+
+    <h2>Area of Triangle Calculator</h2>
+    <p id="triangle"></p>
+    <label for="base">Base of triangle</label>
+    <input type="number" id="base" placeholder="Enter base length of a triangle"> </p>
+    <label for="height">Height of Triangle</label>
+    <input type="number" id="height" placeholder="Enter height of a Triangle"> </p>
+    <button type="submit" id="calculate" title="Calculate Area">Calculate Area</button>
+
+
+
+
+    <div id="container">
+        <h2 class="h">Area of Rectangle Calculator</h2>
+        <p id="rectangle"></p>
+        <label for="length" class="g">LENGTH</label>
+        <input type="number" id="length" class="s" placeholder="Enter length"> </p>
+        <label for="width" class="g">WIDTH</label>
+        <input type="number" id="width" class="s" placeholder="Enter width"> </p>
+        <button type="submit" id="solve" title="Calculate Rectangle">Solve</button>
+        <button type="reset" id="clear" class="clear" title="clear">Clear</button>
+    </div>
+
+    <style>
+
+    </style>
+
+    <!-- area of circle  -->
+    <h2>Area of a circle</h2>
+    <p id="circa"></p>
+    <label for="circle">Radius</label>
+    <input type="text" name="circle" id="radiusx" placeholder="Enter radius of a circle"> </p>
+    <button type="submit" id="circlearea">Calculate Area</button>
+    <button type="reset" id="cleararea">Clear</button>
+
+    <!--HTML class work starts here-->
+
+    <div id="containers">
+        <h2 class="hc">Volume of Cylinder</h2>
+        <p id="cylinder"></p>
+        <label for="length" class="gc">Radius</label>
+        <input type="number" id="radius" class="s" placeholder="Enter Radius"></p>
+        <label for="width" class="gc">Height</label>
+        <input type="number" id="heights" class="s" placeholder="Enter Height"> </p>
+        <button type="submit" id="solvec" class="one" title="Calculate Rectangle">Solve</button>
+        <button type="reset" id="clear" class="clearc" title="clear">Clear</button>
+    </div>
+
+    <!-- class works ends here -->
+
+    <!-- Assignment started here -->
+    <div id="containers">
+        <h2 class="hcs">Total surface of a cylinder</h2>
+        <p id="ode"></p>
+        <label for="length" class="gcs">Radius</label>
+        <input type="number" id="rediu" class="ss" placeholder="Enter Radius"></p>
+        <label for="height" class="gcs">Height</label>
+        <input type="number" id="hite" class="ss" placeholder="Enter Height"></p>
+        <button type="submit" id="sol" class="ones" title="Calculate Rectangle">Solve</button>
+        <button type="reset" id="cla" class="oness" title="clear">Clear</button>
+    </div>
+
+    <!-- Assignment stopped here here -->
+
+
+    <!-- reg. number generator  -->
+    <div class="reg">
+        <h2 class="h">Email Generation</h2>
+        <p id="reg"></p>
+        <button type="reset" id="get">Generate Email</button>
+    </div>
     <!-- <script src="javascript/myjava.js" lang="javascript"></script> -->
 
     <script>
@@ -217,5 +297,7 @@
         s.lang = "javascript";
         document.body.appendChild(s);
     </script>
+
 </body>
+
 </html>

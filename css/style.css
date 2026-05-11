@@ -1,0 +1,275 @@
+ #container {
+     max-width: 550px;
+     background-color: gainsboro;
+     margin-left: 350px;
+     height: 300px;
+     padding: 50px;
+     border-radius: 25px;
+     margin-bottom: 30px;
+
+ }
+
+ .clear {
+     padding: 7px 28px;
+     background-color: rgb(255, 238, 0);
+     color: green;
+     font-size: 18px;
+     font-weight: bold;
+     font-size: 14px;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     border: none;
+ }
+
+ .s {
+     margin: 10px;
+     padding-top: 10px;
+     width: 40%;
+     height: auto;
+ }
+
+ .g {
+     color: green;
+     font-size: 26px;
+     font-weight: bolder;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-top: 80px;
+ }
+
+ #rectangle {
+     margin: 10px;
+     padding-top: 20px;
+     padding-bottom: 30px;
+     width: 90%;
+     height: 20px;
+     font-size: 18px;
+     color: green;
+     background-color: white;
+     border-radius: 7px;
+     margin-left: 15px;
+ }
+
+ .h {
+     text-transform: uppercase;
+     text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: green;
+     margin-bottom: 20px;
+ }
+
+ #solve {
+     padding: 7px 28px;
+     background-color: green;
+     color: white;
+     font-size: 14px;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     border: none;
+ }
+
+
+ /* CSS class works */
+
+ #containers {
+     max-width: 450px;
+     background-color: gainsboro;
+     margin-left: 350px;
+     height: 300px;
+     padding: 50px;
+     border-radius: 25px;
+     margin-bottom: 30px;
+
+ }
+
+ .clearc {
+     padding: 7px 28px;
+     background-color: rgb(49, 44, 44);
+     color: white;
+     font-size: 18px;
+     font-weight: bold;
+     font-size: 14px;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     border: none;
+ }
+
+ .one {
+     padding: 7px 28px;
+     background-color: blue !important;
+     color: white;
+     font-size: 14px;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     border: none;
+ }
+
+ #solvec {
+     padding: 7px 28px;
+     background-color: blue;
+     color: white;
+     font-size: 14px;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     border: none;
+ }
+
+ .hc {
+     text-transform: uppercase;
+     text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: blue;
+     margin-bottom: 20px;
+ }
+
+ .gc {
+     color: blue;
+     font-size: 26px;
+     font-weight: bolder;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-top: 80px;
+ }
+
+ #cylinder {
+     margin: 10px;
+     padding-top: 20px;
+     padding-bottom: 30px;
+     width: 90%;
+     height: 20px;
+     font-size: 18px;
+     color: blue;
+     background-color: white;
+     border-radius: 7px;
+     margin-left: 15px;
+ }
+
+ /* assignment */
+ #ode {
+     margin: 10px;
+     padding-top: 20px;
+     padding-bottom: 30px;
+     width: 90%;
+     height: 20px;
+     font-size: 18px;
+     color: orange;
+     background-color: white;
+     border-radius: 7px;
+     margin-left: 15px;
+ }
+
+ .gcs {
+     color: orange;
+     font-size: 26px;
+     font-weight: bolder;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-top: 80px;
+ }
+
+ #solvecs {
+     padding: 7px 28px;
+     background-color: orange;
+     color: white;
+     font-size: 14px;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     border: none;
+ }
+
+ .ones {
+     padding: 7px 28px;
+     background-color: orange !important;
+     color: white;
+     font-size: 14px;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     border: none;
+ }
+
+ .oness {
+     padding: 7px 28px;
+     background-color: black !important;
+     color: white;
+     font-size: 14px;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     border: none;
+ }
+
+ .gs {
+     color: orange;
+     font-size: 26px;
+     font-weight: bolder;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-top: 80px;
+ }
+
+ .hcs {
+     text-transform: uppercase;
+     text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: orange;
+     margin-bottom: 20px;
+ }
+
+ .ss {
+     margin: 10px;
+     padding-top: 10px;
+     width: 40%;
+     height: auto;
+ }
+
+
+
+
+ /* reg number generator */
+ .reg {
+     max-width: 500px;
+     height: 300px;
+     background-color: gainsboro;
+     border-radius: 7px;
+     margin-left: 350px;
+     margin-bottom: 70px;
+     padding: 30px;
+     text-align: center;
+     line-height: 5rem;
+
+
+ }
+
+ #reg {
+     width: 90%;
+     height: 80px;
+     color: black;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 25px;
+     border-radius: 7px;
+     margin-left: 20px;
+     background-color: white;
+ }
+
+ #get {
+     padding: 10px 32px;
+     border: none;
+     background-color: green;
+     color: white;
+     margin-top: 10px;
+     font-size: 18px;
+     border-radius: 50px;
+ }
+
+ #get:hover {
+     padding: 10px 32px;
+     border: none;
+     background-color: rgb(2, 167, 2);
+     color: white;
+     margin-top: 10px;
+     font-size: 18px;
+     border-radius: 50px;
+ }
